@@ -1,0 +1,170 @@
+/*Seleção*/
+::selection{
+    color: white;
+    background-color: #30D2FF;
+}
+/*Geral*/
+html{
+    margin: 0px;
+    margin-top: 0px;
+    font-family: 'Varela Round', sans-serif;
+}
+/*Barra de rolagem*/
+::-webkit-scrollbar{
+    background-color: white;
+    width: 10px;
+}
+::-webkit-scrollbar-button{
+    background-color: white;
+    height: 3px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #30D2FF;
+    border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #28a8cc;
+}
+/*Corpo*/
+body{
+    margin: 0px;
+    background-image: url(../img/fundo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+body a:visited{
+    color: #30D2FF;
+}
+body a:hover{
+    color: #00000049;
+}
+hr{
+    border-color: white;
+}
+/*Cabeçalho*/
+header{
+    background-color: rgba(255, 255, 255, 0.568);
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding: 1px;
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+/*Menu de páginas*/
+menu{
+    background-color: rgba(255, 255, 255, 0.568);
+    width: 500px;
+    border-radius: 10px;
+}
+menu a:visited{
+    color: white;
+}
+.l-pags{
+    margin: 0px;
+    padding: 10px;
+}
+.li-pags{
+    list-style: none;
+    display: inline;
+    margin: 10px;
+    font-size: 20px;
+    padding: 3px;
+
+}
+.li-pags a{
+    text-decoration: none;
+    padding-top: 5px;
+    border-bottom: 3px solid white;
+    color: white;
+}
+.li-pags a:hover{
+    border-bottom: 3px solid #30D2FF;
+    color: #30D2FF;
+}
+/*Postagens e galeria de imagens*/
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 10px 2vw;
+    background-color: rgba(255, 255, 255, 0.568);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 35px;
+    border-radius: 20px;
+}
+.gallery-items{
+    width: 450px;
+    height: 250px;
+    border: 3px solid white;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px;
+    padding-bottom: 30px;
+}
+.gallery-items img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.titulos{
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.568);
+    width: 500px;
+    border-radius: 10px;
+    color: white;
+}
+/*Barra de separação*/
+.barra{
+    border-bottom: 3px solid white;
+    padding: 20px;
+}
+/*Formularios*/
+.form{
+    padding: 10px;
+}
+.form iframe{
+    height: 800px;
+}
+/*Postagens*/
+.texto-post{
+    margin: 30px;
+    background-color: white;
+    background-image: url(../img/fundo2.png);
+    padding: 5px;
+    border: 10px solid rgba(255, 255, 255, 0);
+    border-radius: 10px;
+    text-align: justify;
+}
+.a-post{
+    text-decoration: black underline;
+    color: #30D2FF;
+}
+.t-posts{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.img-post{
+    width: 70%;
+}
+.img-compartilhar{
+    width: 40px;
+    border-radius: 20px;
+}
+/*Sobre*/
+.img-social{
+    width: 20px;
+}
+.sobre a{
+    text-decoration: none;
+    color: black;
+}
+
